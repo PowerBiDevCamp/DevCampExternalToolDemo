@@ -1,0 +1,14 @@
+﻿VAR CalenderStart =
+    DATE ( YEAR ( MIN ( @DateColumnName ) ), 1, 1 )
+VAR CalendarEnd =
+    DATE ( YEAR ( MAX ( @DateColumnName ) ), 12, 31 )
+RETURN
+    ADDCOLUMNS (
+        CALENDAR ( CalenderStart, CalendarEnd ),
+        "Year", YEAR ( [Date] ),
+        "Quarter", YEAR ( [Date] ) & " Q" & FORMAT( [Date], "q"),
+        "Month", FORMAT ( [Date], "MMMM" ) & " " & YEAR ( [Date] ),
+        "Day of Week", FORMAT ( [Date], "dddd" ),
+        "MonthSort", (Year( [Date] ) * 100) + MONTH ( [Date] ),
+        "DaySort", WEEKDAY ( [Date], 2 )
+    )

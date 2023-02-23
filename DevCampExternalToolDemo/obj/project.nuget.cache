@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "lNKDE5VRHAEIDaueRostCuBbX9vo1oNX6ks8DHJvjadfXIxbFkeTRiwRmeViAebhQ+7/X/ajhdcmlvJ/1n8rZw==",
+  "success": true,
+  "projectFilePath": "C:\\DevCampExplore\\DevCampExternalToolDemo\\DevCampExternalToolDemo\\DevCampExternalToolDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ted\\.nuget\\packages\\microsoft.analysisservices.adomdclient.netcore.retail.amd64\\19.55.3.1\\microsoft.analysisservices.adomdclient.netcore.retail.amd64.19.55.3.1.nupkg.sha512",
+    "C:\\Users\\Ted\\.nuget\\packages\\microsoft.analysisservices.netcore.retail.amd64\\19.55.3.1\\microsoft.analysisservices.netcore.retail.amd64.19.55.3.1.nupkg.sha512",
+    "C:\\Users\\Ted\\.nuget\\packages\\microsoft.identity.client\\4.43.0\\microsoft.identity.client.4.43.0.nupkg.sha512",
+    "C:\\Users\\Ted\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\Ted\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ted\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
